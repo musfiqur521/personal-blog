@@ -1,4 +1,4 @@
-﻿@extends('layouts.website')
+@extends('layouts.website')
 @section('content')
 <div class="site-cover site-cover-sm same-height overlay single-page"
     style="background-image: url('{{ $post->image }}');">
@@ -30,11 +30,11 @@
                 </div>
                 <div class="pt-5">
                     <p>
-                        Categories: <a href="#">{{ $post->category->name }}</a>
+                        Categories: <a href="#">{{ $post->category->name }}</a> 
                         @if($post->tags()->count() > 0)
-                        Tags:
+                        Tags: 
                             @foreach($post->tags as $tag)
-                                <a href="{{ route('website.tag', ['slug' => $tag->slug]) }}">#{{ $tag->name }}</a>,
+                                <a href="{{ route('website.tag', ['slug' => $tag->slug]) }}">#{{ $tag->name }}</a>, 
                             @endforeach
                         @endif
                     </p>
@@ -42,7 +42,7 @@
                 <div class="pt-5">
                     <h3 class="mb-5" id="dsq-count-scr">6 Comments</h3>
                     <a href="{{ route('website.post', ['slug' => $post->slug]) }}#disqus_thread">Comments</a>
-
+                    
                     <div id="disqus_thread"></div>
 
 

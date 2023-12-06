@@ -1,6 +1,5 @@
 @extends('layouts.website')
-@section('content')
-
+@section('content')    
     <div class="site-cover site-cover-sm same-height overlay single-page" style="background-image: url('{{ asset('website') }}/images/img_4.jpg');">
         <div class="container">
         <div class="row same-height justify-content-center">
@@ -44,5 +43,4 @@
         </div>
         </div>
     </div>
-    
 @endsection
