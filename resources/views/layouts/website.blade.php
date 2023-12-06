@@ -1,4 +1,4 @@
-﻿ <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Personal Blog</title>
@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href="../../css.css?family=Muli:300,400,700|Playfair+Display:400,700,900" rel="stylesheet">
+/
+    <link rel="stylesheet" href="{{ asset('website/fonts/icomoon/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('website/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('website/css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('website/css/jquery-ui.css') }}">
+    <link rel="stylesheet" href="{{ asset('website/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('website/css/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('website/css/bootstrap-datepicker.css') }}">
+    <link rel="stylesheet" href="{{ asset('website/fonts/flaticon/font/flaticon.css') }}">
+    <link rel="stylesheet" href="{{ asset('website/css/aos.css') }}">
 
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{ asset('website/css/style.css') }}">
   </head>
   <body>
 
@@ -44,7 +44,7 @@
           </div>
 
           <div class="col-4 site-logo">
-            <a href="index.html" class="text-black h2 mb-0">Mini Blog</a>
+            <a href="index.html" class="text-black h2 mb-0">Personal Blog</a>
           </div>
 
           <div class="col-8 text-right">
@@ -427,19 +427,19 @@
 
   </div>
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.countdown.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/bootstrap-datepicker.min.js"></script>
-  <script src="js/aos.js"></script>
+  <script src="{{ asset('website/js/jquery-3.3.1.min.js') }}"></script>
+  <script src="{{ asset('website/js/jquery-migrate-3.0.1.min.js') }}"></script>
+  <script src="{{ asset('website/js/jquery-ui.js') }}"></script>
+  <script src="{{ asset('website/js/popper.min.js') }}"></script>
+  <script src="{{ asset('website/js/bootstrap.min.js') }}"></script>
+  <script src="{{ asset('website/js/owl.carousel.min.js') }}"></script>
+  <script src="{{ asset('website/js/jquery.stellar.min.js') }}"></script>
+  <script src="{{ asset('website/js/jquery.countdown.min.js') }}"></script>
+  <script src="{{ asset('website/js/jquery.magnific-popup.min.js') }}"></script>
+  <script src="{{ asset('website/js/bootstrap-datepicker.min.js') }}"></script>
+  <script src="{{ asset('website/js/aos.js') }}"></script>
 
-  <script src="js/main.js"></script>
+  <script src="{{ asset('website/js/main.js') }}"></script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async="" src="../../gtag/js.js?id=UA-23581568-13"></script>
