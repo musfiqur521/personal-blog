@@ -30,6 +30,15 @@ Route::middleware('auth')->group(function () {
 
 require __DIR__.'/auth.php';
 
-Route::get('/', function (){
-    return view('layouts.website');
+Route::get('/about', function (){
+    return view('website.about');
+});
+Route::get('/category', function (){
+    return view('website.category');
+});
+Route::get('/contact', function (){
+    return view('website.contact');
+});
+Route::get('/post', function (){
+    return view('website.post');
 });
